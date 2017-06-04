@@ -1,0 +1,33 @@
+{
+  "name": "hackmann",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "amcharts": "^3.14.5",
+    "c3": "^0.4.12",
+    "chart.js": "^2.6.0",
+    "d3": "^4.9.1",
+    "jquery": "^3.2.1",
+    "nvd3": "^1.8.5",
+    "plotly": "^1.0.6",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.2",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-display": "^1.0.8",
+    "react-native-swiper": "^1.5.4",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
